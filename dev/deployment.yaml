@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: vickeys/boardgame-dev:PLACEHOLDER # Jenkins will replace this with actual image:tag
+          image: null:19
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
