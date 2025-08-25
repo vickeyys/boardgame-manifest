@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: null:9
+          image: vickeys/boardgame-dev:
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
