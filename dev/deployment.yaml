@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: null:20
+          image: vickeys/boardgame-dev:dev-21
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
